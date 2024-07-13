@@ -1,0 +1,9 @@
+body{
+background: linear-gradient(to right, #9cecfb, #7777ff, #0052d4);
+}
+Nav{
+  background-image:linear-gradient(to right, #9cecfb, #ffffff);
+}
+SimpleForm input{
+  border-radius:50px;
+}

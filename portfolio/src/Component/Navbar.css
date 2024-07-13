@@ -1,0 +1,71 @@
+.Navbar {
+  text-align: center;
+  border-radius:50px;
+  background-color: black;
+  width:100vw;
+  position:fixed;
+  z-index:20;
+}
+.Navbar-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+nav{
+  display: flex;
+  width:100vw;
+  align-items: center;
+  justify-content:end;
+ postion:relative;
+  height:50px;
+  width:auto;
+  border:2px solid white;
+  color:white;
+  border-radius:50px;
+  top:10px;
+}
+nav ul{
+  display:flex;
+  gap:10px;
+  position:absolute;
+  right:10px;
+}
+nav ul li:active{
+  background: linear-gradient(to right,skyblue,hotpink);
+}
+nav ul li{
+  height:20px;
+  border-top:1px solid skyblue;
+  border-bottom:1px solid hotpink;
+  border-radius:50px;
+}
+nav ul li:hover{
+  border-bottom-color:skyblue;
+  border-top-color: hotpink;
+}
+nav img{
+  position:absolute;
+  left:5px;
+}
+.logoimg{
+  animation-name: App-logo-spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate;
+  background-color: black;
+  height:40px;
+  border-radius:50px;
+}
+nav ul a{
+  color:white;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+    border-radius:40px;
+  }
+  to {
+    transform: rotate(360deg);
+    border-radius:40px;
+  }
+}

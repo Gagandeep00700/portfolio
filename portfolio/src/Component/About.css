@@ -1,0 +1,21 @@
+footer{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content: center;
+  background:linear-gradient(to right,skyblue,hotpink);
+  background-clip: text;
+  color:transparent;
+}
+.mydetails{
+  border:2px solid white;
+  height:auto;
+  border-radius:50px;
+  background:linear-gradient(to right,skyblue,hotpink);
+  background-clip: text;
+  color:transparent;
+  padding:10px;
+}
+footer:hover{
+  scale:1.02;
+}

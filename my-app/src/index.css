@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+*{
+  color:white;
+}
+body {
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
