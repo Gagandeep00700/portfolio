@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <Projects />
+    <Projects id="nov"/>
     <About />
   </React.StrictMode>
 );
